@@ -1,0 +1,85 @@
+@import 'fonts.css';
+
+.section-with-image {
+    padding-top: 150px;
+    padding-bottom: 140px;
+    background: no-repeat bottom right url(../img/ipad.png);
+    background-color: #f4f4f4;
+}
+
+.line { 
+    border-left: 5px solid #4eacdd;
+    padding-left: 10px; 
+}
+.pic {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.img-right {
+    margin-top: -400px;
+}
+
+.img_devices {
+    margin-top: -200px;
+}
+
+.section2 {
+    background: url(../img/devices.png)
+    no-repeat
+    bottom left;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 235px;
+    overflow: hidden;
+    /* margin-bottom: 240px; */
+}
+
+.section3 {
+    background-image: url(../img/footer_bg.png);
+    padding: 100px;
+}
+
+.section4 {
+    background-color: #f4f4f4;
+    padding: 240px;
+}
+
+.section4__ikon {
+    display: inline-block;
+    padding: 23px;
+    
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+.input_text {
+    font-family: ProximaNova-SemiboldIT;
+    font-size: 16pt;
+    color: #545454;
+}
+
+.input_form::placeholder {
+    font-family: ProximaNova-SemiboldIT;
+    color: #d3d3d3;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer_text {
+    font-family: ProximaNova-RegularIT;
+    font-size: 12pt;
+    color: #545454;
+}
+
+.perth {
+    font-family: ProximaNova-Regular;
+    color: #6dc5ea;
+}
+
+.input_ikon {
+    margin-left: -50px;
+}
